@@ -1,4 +1,31 @@
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2012/02/22/09/12/background-15226_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(23, 23, 22);
+    background-color: rgba(207, 204, 193, 0.713);
+    padding:1rem;
+}
 main .col{
     display: flex;
     flex-direction: column;
+}
+.table-dark {
+    opacity: 0.9;
+}
+#container-buttons{
+    /* //background-color: rgba(207, 204, 193, 0.713); */
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+button{
+    margin: 1rem;
+    
 }
