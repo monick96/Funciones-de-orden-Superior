@@ -20,7 +20,7 @@ const app = createApp({
     },
     methods: {
         sort() {
-            this.characters.sort((a, b) => a.age - b.age); // sort by age funciona aplica sobre el array original
+            this.characters= this.backup_characters.sort((a, b) => a.age - b.age); // sort by age funciona aplica sobre el array original
         },
         some() {
             const isStudent = this.backup_characters.some(
